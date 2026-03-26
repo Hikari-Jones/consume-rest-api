@@ -78,7 +78,7 @@ class ApiService {
             Uri.parse(url),
             headers: {
               'Accept': 'application/json',
-              'User-Agent': 'flutter_application_2/1.0',
+              'User-Agent': 'flutter_application_1/1.0',
             },
           )
           .timeout(const Duration(seconds: 15));
